@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/cardView_theme"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    app:strokeColor="@color/black"
+    app:strokeWidth="2dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/interestLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_gredient_choose">
+    <TextView
+        android:id="@+id/interests_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Black_TextviewStyle_16sp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

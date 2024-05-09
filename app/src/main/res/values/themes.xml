@@ -1,0 +1,111 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuizApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowBackground">@drawable/bg_gredient</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/lm_grey</item>
+
+    </style>
+
+    <style name="Theme.QuizApp" parent="Base.Theme.QuizApp" />
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+    <style name="cardView_theme" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/light_green</item>
+        <item name="cardCornerRadius">10dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeColor">@color/grey_dark</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="FontSize_16sp">
+        <item name="android:textSize">16sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="FontSize_18sp">
+        <item name="android:textSize">18sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="FontSize_20sp">
+        <item name="android:textSize">20sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="FontSize_22sp">
+        <item name="android:textSize">22sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="FontSize_24sp">
+        <item name="android:textSize">24sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="FontSize_35sp">
+        <item name="android:textSize">35sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="FontSize_40sp">
+        <item name="android:textSize">40sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Black_TextviewStyle_16sp" parent="FontSize_16sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_TextviewStyle_18sp" parent="FontSize_18sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_TextviewStyle_20sp" parent="FontSize_20sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_TextviewStyle_22sp" parent="FontSize_22sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_TextviewStyle_24sp" parent="FontSize_24sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_TextviewStyle_35sp" parent="FontSize_35sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_TextviewStyle_40sp" parent="FontSize_40sp">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!--ProgressLoader Theme-->
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/black</item>
+    </style>
+</resources>
