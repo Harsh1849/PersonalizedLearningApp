@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity {
         binding.usernameTiet.addTextChangedListener(new ClearErrorTextWatcher(binding.usernameTil));
         binding.passwordTiet.addTextChangedListener(new ClearErrorTextWatcher(binding.passwordTil));
 
-        binding.usernameTiet.setText("test");
-        binding.passwordTiet.setText("11111111");
     }
 
     private void manageClicks() {

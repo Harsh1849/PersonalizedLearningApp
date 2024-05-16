@@ -83,7 +83,7 @@ public class HomeActivity extends AppCompatActivity {
                     if (response.code() == 200) {
                         TaskModel taskModel = new TaskModel();
                         taskModel.taskTitle = "Generated Task " + (taskList.size() + 1);
-                        taskModel.taskDecs = "Small description for generated task.";
+                        taskModel.taskDecs = "This is the AI Generated Quiz.";
                         taskModel.userName = username;
                         taskModel.isTaskComplete = 0;
                         taskModel.quizModel = response.body();

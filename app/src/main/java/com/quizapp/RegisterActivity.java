@@ -179,10 +179,10 @@ public class RegisterActivity extends AppCompatActivity {
         } else {
             clearError(binding.phoneNumberTil);
         }
-        if (checkEmptyString(imageUrl)) {
-            showToast(this, "Please select profile photo.");
-            return false;
-        }
+//        if (checkEmptyString(imageUrl)) {
+//            showToast(this, "Please select profile photo.");
+//            return false;
+//        }
         return true;
     }
 
